@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_black"
+    android:background="@color/background_purple"
     tools:context=".MainActivity">
 
     <View
@@ -44,20 +44,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/timeTextView" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/onOffButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
         android:text="알람 켜기"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toTopOf="@id/changeAlarmTimeButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/changeAlarmTimeButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/button"
         android:text="시간 재설정"
+        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
