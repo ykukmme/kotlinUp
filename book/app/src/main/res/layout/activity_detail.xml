@@ -65,24 +65,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/coverImageView" />
 
-            <EditText
-                android:id="@+id/reviewTextView"
-                android:layout_width="0dp"
-                android:layout_height="300dp"
-                app:layout_constraintBottom_toTopOf="@id/saveButton"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/descriptionTextView" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:text="리뷰 저장하기"
-                android:id="@+id/saveButton"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:background="@color/button"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

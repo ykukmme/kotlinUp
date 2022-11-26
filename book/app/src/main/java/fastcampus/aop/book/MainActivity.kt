@@ -38,8 +38,7 @@ class MainActivity : AppCompatActivity() {
         initHistoryRecyclerView()
         initSearchEditText()
 
-        db = Room.databaseBuilder(applicationContext, AppDatabase::class.java, "BookSearchDB")
-            .build()
+        db = getAppDatabase(this)
 
         //retrofit을 사용하기 위해 객체를 만듬. Gson으로 변환하기에 .addConverterFactory(GsonConverterFactory.create())를 추가함
         val retrofit = Retrofit.Builder()
