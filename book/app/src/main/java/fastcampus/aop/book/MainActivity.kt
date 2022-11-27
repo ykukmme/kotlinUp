@@ -98,7 +98,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initHistoryRecyclerView() {
-        historyadapter = HistoryAdapter (historyDeleteClickedListener = {
+        historyadapter = HistoryAdapter(historyDeleteClickedListener = {
             deleteSearchKeyword(it)
         })
 
