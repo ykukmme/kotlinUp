@@ -31,6 +31,9 @@
         <activity android:name=".home.AddArticleActivity">
 
         </activity>
+        <activity android:name=".chatdetail.ChatRoomActivity">
+
+        </activity>
     </application>
 
 </manifest>
