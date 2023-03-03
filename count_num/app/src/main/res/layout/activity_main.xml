@@ -8,10 +8,11 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/numberTextView"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:gravity="center"
-        android:text="100"
+        android:text="0"
         android:textColor="@color/sky_blue"
         android:textSize="100sp"
         android:textStyle="bold|italic" />
@@ -23,6 +24,7 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/resetButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
@@ -32,6 +34,7 @@
             android:text="초기화" />
 
         <Button
+            android:id="@+id/plusButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
