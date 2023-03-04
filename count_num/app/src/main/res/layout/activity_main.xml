@@ -14,7 +14,7 @@
         android:gravity="center"
         android:text="0"
         android:textColor="@color/sky_blue"
-        android:textSize="100sp"
+        android:textSize="150sp"
         android:textStyle="bold|italic" />
 
 
